@@ -55,7 +55,7 @@ pipeline {
             steps {
                 script {
                     // Deploy the Spring backend application (customize port as needed)
-                    bat "docker run -d -p 8081:8081 spring-app"
+                    bat "docker run -d -p 8080:8080 spring-app"
                 }
             }
         }
